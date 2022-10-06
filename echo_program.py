@@ -1,3 +1,9 @@
+import sys
+
+
 while True:
     userInput = input()
-    print(userInput)
+    if userInput == "exit":
+        sys.exit()
+    else:
+        print(userInput)
